@@ -12,4 +12,6 @@ public interface IBookRepository {
     void add(Book newBook);
 
     List<Book> getAll();
+
+    boolean delete(int id);
 }

@@ -12,4 +12,5 @@ public interface IBookService {
     Book getBookById(int id);
 
     void add(Book newBook);
+    boolean delete(int id);
 }

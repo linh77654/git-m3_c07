@@ -9,16 +9,16 @@
 <h2>Thêm Sách Mới</h2>
 <form action="book?action=add" method="post">
   <label for="title">Tiêu Đề:</label>
-  <input type="text" id="title" name="title" required><br>
+  <input type="text" id="title" name="name" required><br>
 
   <label for="author">Tác Giả:</label>
-  <input type="text" id="author" name="author" required><br>
+  <input type="text" id="author" name="author_id" required><br>
 
   <label for="category">Thể Loại:</label>
-  <input type="text" id="category" name="category" required><br>
+  <input type="text" id="category" name="category_id" required><br>
 
   <label for="pageSize">Số Trang:</label>
-  <input type="number" id="pageSize" name="pageSize" required><br>
+  <input type="number" id="pageSize" name="page_size" required><br>
 
   <input type="submit" value="Thêm Sách">
 </form>

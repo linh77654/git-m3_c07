@@ -17,21 +17,6 @@ public class Book {
         this.category = category;
     }
 
-    public Book(int id, String name, String author) {
-        this.id = id;
-        this.name = name;
-        this.pageSize = pageSize;
-        this.author = author;
-    }
-
-    public Book(int id, String name, String author, int pageSize, String category) {
-        this.id = id;
-        this.name = name;
-        this.pageSize = pageSize;
-        this.author = author;
-        this.category = category;
-    }
-
     public int getId() {
         return id;
     }

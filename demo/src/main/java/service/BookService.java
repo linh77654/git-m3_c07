@@ -25,6 +25,11 @@ public class BookService implements IBookService {
     }
 
     @Override
+    public boolean delete(int id) {
+        return bookRepository.delete(id);
+    }
+
+    @Override
     public List<Book> getAll() {
         return bookRepository.getAll();
     }
